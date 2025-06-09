@@ -6,7 +6,6 @@ pytest==7.4.4
 pytest-xdist==3.5.0
 
 allure-behave==2.8.16
-allure-python-commons==2.9.43
 
 # Para geração dos relatórios Allure em HTML (ferramenta de linha de comando)
 # Instale manualmente o CLI do Allure via brew, scoop ou baixando do site:
