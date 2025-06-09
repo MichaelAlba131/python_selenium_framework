@@ -107,10 +107,6 @@
 <pre><code>class LoginPage:
     def __init__(self, driver):
         self.driver = driver
-
-    @property
-    def username_input(self):
-        return self.driver.find_element(By.XPATH, "//input[@name='email']")
 </code></pre>
 
 <h3>Utils.py</h3>
@@ -166,17 +162,6 @@ Feature: Login
 <p>E abra o relatório no navegador:</p>
 <pre><code>allure open allure-report</code></pre>
 
-<h3>Resumo dos comandos</h3>
-<pre><code>
-# Executar testes com Allure (exemplo Chrome + headless)
-BROWSER=chrome HEADLESS=true behave -f allure_behave.formatter:AllureFormatter -o allure-results features/
-
-# Gerar relatório Allure
-allure generate allure-results --clean -o allure-report
-
-# Abrir relatório Allure
-allure open allure-report
-</code></pre>
 <hr/>
 
 <h2>🤝 Contribuição</h2>
