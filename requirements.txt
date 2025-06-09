@@ -1,0 +1,13 @@
+selenium==4.19.0
+behave==1.2.6
+webdriver-manager==4.0.2
+
+pytest==7.4.4
+pytest-xdist==3.5.0
+
+allure-behave==2.8.16
+allure-python-commons==2.9.43
+
+# Para geração dos relatórios Allure em HTML (ferramenta de linha de comando)
+# Instale manualmente o CLI do Allure via brew, scoop ou baixando do site:
+# https://docs.qameta.io/allure/#_installing_a_commandline
