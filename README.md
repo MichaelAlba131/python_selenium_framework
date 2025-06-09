@@ -123,7 +123,7 @@
 
 <h2>🧪 Exemplos de Cenários (BDD)</h2>
 <pre><code>@chrome @firefox
-Feature: Login Functionality
+Feature: Login
 
   Scenario: Successful login
     Given Navego ate a pagina de login

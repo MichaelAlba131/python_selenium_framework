@@ -1,5 +1,5 @@
 @chrome @firefox
-Feature: Login Functionality
+Feature: Login
 
   Scenario: Successful login
     Given Navego ate a pagina de login
